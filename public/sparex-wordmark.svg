@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52" fill="none" role="img" aria-label="Sparex">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 52" fill="none" role="img" aria-label="Sparex">
   <g transform="skewX(-12)">
     <text
       x="4"
@@ -11,6 +11,6 @@
     >
       <tspan font-size="36">SPARE</tspan><tspan font-size="44" baseline-shift="-2">X</tspan>
     </text>
-    <line x1="6" y1="42" x2="118" y2="42" stroke="#E21B16" stroke-width="2.5" />
+    <line x1="6" y1="42" x2="168" y2="42" stroke="#E21B16" stroke-width="2.5" />
   </g>
 </svg>
