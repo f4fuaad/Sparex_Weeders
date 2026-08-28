@@ -8,6 +8,10 @@ interface AnimatedHeadingProps {
   charDuration?: number;
 }
 
+function splitIntoWords(line: string): string[] {
+  return line.match(/\S+|\s+/g) ?? [line];
+}
+
 export default function AnimatedHeading({
   text,
   className = '',
@@ -23,31 +27,42 @@ export default function AnimatedHeading({
     return () => clearTimeout(timer);
   }, [initialDelay]);
 
+  let globalCharIndex = 0;
+
   return (
     <h1 className={className} style={{ letterSpacing: '-0.04em' }}>
       {lines.map((line, lineIndex) => {
-        let lineOffset = 0;
-        for (let i = 0; i < lineIndex; i++) {
-          lineOffset += lines[i].length * charDelay;
-        }
+        const words = splitIntoWords(line);
 
         return (
           <span key={lineIndex} className="block">
-            {line.split('').map((char, charIndex) => {
-              const delay = lineOffset + charIndex * charDelay;
+            {words.map((word, wordIndex) => {
+              const wordStartIndex = globalCharIndex;
+              globalCharIndex += word.length;
 
               return (
                 <span
-                  key={charIndex}
-                  className="inline-block transition-all"
-                  style={{
-                    opacity: animate ? 1 : 0,
-                    transform: animate ? 'translateX(0)' : 'translateX(-18px)',
-                    transitionDuration: `${charDuration}ms`,
-                    transitionDelay: `${delay}ms`,
-                  }}
+                  key={wordIndex}
+                  className="inline-block whitespace-nowrap"
                 >
-                  {char === ' ' ? '\u00A0' : char}
+                  {word.split('').map((char, charIndex) => {
+                    const delay = wordStartIndex * charDelay + charIndex * charDelay;
+
+                    return (
+                      <span
+                        key={charIndex}
+                        className="inline-block transition-all"
+                        style={{
+                          opacity: animate ? 1 : 0,
+                          transform: animate ? 'translateX(0)' : 'translateX(-18px)',
+                          transitionDuration: `${charDuration}ms`,
+                          transitionDelay: `${delay}ms`,
+                        }}
+                      >
+                        {char === ' ' ? '\u00A0' : char}
+                      </span>
+                    );
+                  })}
                 </span>
               );
             })}

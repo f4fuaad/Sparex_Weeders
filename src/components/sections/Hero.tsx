@@ -37,9 +37,9 @@ export default function Hero() {
             <img
               src="/sparex-wordmark.svg"
               alt="Sparex"
-              className="h-7 w-auto object-contain md:h-8"
-              width={160}
-              height={40}
+              className="h-8 w-auto min-w-[120px] object-contain object-left md:h-9"
+              width={180}
+              height={44}
             />
           </Link>
 
@@ -70,10 +70,10 @@ export default function Hero() {
         <div className="flex flex-1 flex-col justify-end pb-12 lg:pb-16">
           <div className="lg:grid lg:grid-cols-2 lg:items-end">
             {/* Left column */}
-            <div>
+            <div className="max-w-3xl lg:max-w-none">
               <AnimatedHeading
                 text={'Paper & paperboard\nfor global markets.'}
-                className="mb-4 text-4xl font-normal md:text-5xl lg:text-6xl xl:text-7xl"
+                className="mb-4 text-4xl font-normal leading-[1.08] md:text-5xl lg:text-6xl xl:text-7xl"
               />
 
               <FadeIn delay={800} duration={1000}>

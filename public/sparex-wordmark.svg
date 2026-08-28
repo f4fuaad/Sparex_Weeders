@@ -1,24 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 52" fill="none" role="img" aria-label="Sparex">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52" fill="none" role="img" aria-label="Sparex">
   <g transform="skewX(-12)">
     <text
-      x="8"
+      x="4"
       y="38"
-      font-family="'Space Grotesk', Arial Black, sans-serif"
-      font-size="36"
+      font-family="Arial Black, Inter, sans-serif"
       font-weight="700"
       font-style="italic"
       fill="#E21B16"
-      letter-spacing="-1"
-    >SPARE</text>
-    <text
-      x="148"
-      y="42"
-      font-family="'Space Grotesk', Arial Black, sans-serif"
-      font-size="44"
-      font-weight="700"
-      font-style="italic"
-      fill="#E21B16"
-    >X</text>
-    <line x1="10" y1="42" x2="138" y2="42" stroke="#E21B16" stroke-width="2.5" />
+      letter-spacing="-0.5"
+    >
+      <tspan font-size="36">SPARE</tspan><tspan font-size="44" baseline-shift="-2">X</tspan>
+    </text>
+    <line x1="6" y1="42" x2="118" y2="42" stroke="#E21B16" stroke-width="2.5" />
   </g>
 </svg>
