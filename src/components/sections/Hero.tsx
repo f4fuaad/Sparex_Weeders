@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import AnimatedHeading from '../ui/AnimatedHeading';
 import FadeIn from '../ui/FadeIn';
 
-const HERO_VIDEO =
-  'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260403_050628_c4e32401-fab4-4a27-b7a8-6e9291cd5959.mp4';
+const HERO_VIDEO = '/videos/hero.mp4';
 
 const NAV_LINKS = [
   { label: 'About', href: '/about' },
