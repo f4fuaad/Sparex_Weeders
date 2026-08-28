@@ -72,11 +72,11 @@ export default function Hero() {
             <div className="max-w-3xl lg:max-w-none">
               <AnimatedHeading
                 text={'Paper & paperboard\nfor global markets.'}
-                className="mb-4 text-4xl font-normal leading-[1.08] md:text-5xl lg:text-6xl xl:text-7xl"
+                className="mb-4 text-4xl font-bold italic leading-[1.08] text-white md:text-5xl lg:text-6xl xl:text-7xl"
               />
 
               <FadeIn delay={800} duration={1000}>
-                <p className="mb-5 text-base text-gray-300 md:text-lg">
+                <p className="mb-5 text-base text-black md:text-lg">
                   We connect international buyers with reliable manufacturers and supply
                   sources for packaging, printing, and converting industries.
                 </p>
