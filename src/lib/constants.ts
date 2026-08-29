@@ -106,7 +106,7 @@ export const PRODUCTS: Product[] = [
       'Heavy-duty packaging',
     ],
     image: '/images/sack-kraft-paper.png',
-    imageAlt: 'Large kraft paper rolls for sack and heavy-duty industrial packaging',
+    imageAlt: 'Premium sack kraft paper sacks and jumbo roll in an industrial packaging facility',
   },
   {
     id: 'mg-kraft',
@@ -158,7 +158,7 @@ export const PRODUCTS: Product[] = [
       'Specialty converting',
     ],
     image: '/images/wet-strength-paper.png',
-    imageAlt: 'Wet strength paper production line with coating and press section in an industrial mill',
+    imageAlt: 'Wet strength paper sheets and shopping bag with water beading in a converting facility',
   },
   {
     id: 'fbb',
@@ -175,8 +175,8 @@ export const PRODUCTS: Product[] = [
       'FMCG packaging',
       'Consumer product packaging',
     ],
-    image: IMG('photo-1631545806608-20c7e7a09631'),
-    imageAlt: 'Folding boxboard cartons for pharmaceutical and FMCG packaging',
+    image: '/images/fbb-folding-boxboard.png',
+    imageAlt: 'Premium folding boxboard sheets with luxury folding carton for packaging applications',
   },
   {
     id: 'duplex-board',
@@ -194,8 +194,8 @@ export const PRODUCTS: Product[] = [
       'Cosmetic packaging',
       'General consumer packaging',
     ],
-    image: IMG('photo-1568667256549-094345857637'),
-    imageAlt: 'Duplex paperboard sheets for folding cartons and print packaging',
+    image: '/images/duplex-board.png',
+    imageAlt: 'Duplex board sheets and folding carton in a paper converting facility',
   },
   {
     id: 'liquid-packaging-board',
@@ -210,8 +210,8 @@ export const PRODUCTS: Product[] = [
       'Beverage cartons',
       'Packaging converters',
     ],
-    image: IMG('photo-1602143407151-7111542de6e8'),
-    imageAlt: 'Liquid packaging board used for beverage and juice cartons',
+    image: '/images/liquid-packaging-board.png',
+    imageAlt: 'Liquid packaging board sheets and gable-top carton in a converting facility',
   },
   {
     id: 'copier-paper',
@@ -238,8 +238,8 @@ export const PRODUCTS: Product[] = [
       'Educational materials',
       'Commercial printing',
     ],
-    image: IMG('photo-1512820790801-0f4f4f0b939a'),
-    imageAlt: 'Book paper for publishing, educational and commercial print',
+    image: '/images/book-paper.png',
+    imageAlt: 'Premium uncoated book paper ream and open book for publishing applications',
   },
   {
     id: 'newsprint',
@@ -249,8 +249,8 @@ export const PRODUCTS: Product[] = [
     headline: 'Publication-grade newsprint.',
     overview: 'Newsprint paper for newspaper and publication printing applications.',
     applications: ['Newspapers', 'Publications', 'Commercial print runs'],
-    image: IMG('photo-1504711434969-e33886198f5f'),
-    imageAlt: 'Newsprint paper rolls for newspaper and publication printing',
+    image: '/images/newsprint.png',
+    imageAlt: 'Newsprint roll and printed newspaper in a pressroom environment',
   },
   {
     id: 'thermal-paper',
@@ -267,8 +267,8 @@ export const PRODUCTS: Product[] = [
       'Labels',
       'Retail printing',
     ],
-    image: IMG('photo-1556742049-0cfed4f6a45d'),
-    imageAlt: 'Thermal paper rolls for POS receipts, billing and retail printing',
+    image: '/images/thermal-paper.png',
+    imageAlt: 'Premium thermal paper rolls for POS, billing and retail printing',
   },
   {
     id: 'grease-proof',
