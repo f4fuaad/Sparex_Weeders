@@ -17,19 +17,12 @@ export const POWER_WEEDER = {
 
 /** Local power weeder imagery — replace in public/images/power-weeder/ when client photos are ready */
 export const POWER_WEEDER_IMAGES = {
-  hero: './images/power-weeder/hero.png',
   field: './images/power-weeder/field.png',
   engineParts: './images/power-weeder/engine-parts.png',
 } as const;
 
 /** Hero background video */
 export const HERO_VIDEO = './videos/hero.mp4';
-
-/** Fallback poster if video fails to load */
-export const HERO_POSTER = POWER_WEEDER_IMAGES.hero;
-
-export const HERO_IMAGE = POWER_WEEDER_IMAGES.hero;
-export const HERO_IMAGE_ALT = 'Robotic assembly of power weeder engine components';
 
 export const FIELD_IMAGE_ALT = 'Power weeder working in a crop field';
 

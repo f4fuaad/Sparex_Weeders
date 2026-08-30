@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import { ArrowRight } from 'lucide-react';
 import Button from '../ui/Button';
 import { COMPANY } from '../../lib/constants';
-import { HERO_VIDEO, HERO_POSTER, POWER_WEEDER } from '../../lib/siteConfig';
+import { HERO_VIDEO, POWER_WEEDER } from '../../lib/siteConfig';
 import { useReducedMotion } from '../../hooks/useReducedMotion';
 
 export default function HomeHero() {
@@ -44,7 +44,6 @@ export default function HomeHero() {
         loop
         muted
         playsInline
-        poster={HERO_POSTER}
         aria-hidden="true"
       >
         <source src={HERO_VIDEO} type="video/mp4" />
