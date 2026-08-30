@@ -1,96 +1,105 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
 import SEOHead from '../components/seo/SEOHead';
-import { SectionHeading } from '../components/ui/ChapterMarker';
+import { PageShell } from '../components/layout/Layout';
+import { COMPANY, TRADE_PROCESS } from '../lib/constants';
+import { POWER_WEEDER } from '../lib/siteConfig';
+import { Reveal, StaggerReveal } from '../components/motion/Reveal';
+import { SectionLabel, SectionTitle } from '../components/sections/HomeHero';
 import Button from '../components/ui/Button';
-import { COMPANY, PRODUCT_CATEGORIES } from '../lib/constants';
 
 export default function AboutPage() {
   return (
     <>
       <SEOHead
-        title="About Sparex India — Paper & Paperboard Export Trading"
-        description="Sparex India specializes in sourcing and international trading of paper, paperboard and packaging materials for global B2B buyers."
+        title="About Sparex India — Power Weeder Engine Spares"
+        description="Sparex India is a focused import-export and sourcing company for power weeder engine spare parts across 170F, 173F, 177F, and 186F families."
         path="/about"
       />
+      <PageShell>
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 md:py-24">
+          <Reveal>
+            <SectionLabel index="Co." label="About Sparex India" />
+            <SectionTitle className="mt-4 max-w-3xl">
+              Power weeder spares. Requirement-led trade.
+            </SectionTitle>
+          </Reveal>
 
-      <div className="section-warm border-b border-warm-stone/40 py-20 md:py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            chapter="About"
-            title="Your trusted partner for paper & paperboard."
-            description="We connect international buyers with reliable manufacturers and supply sources for packaging papers, paperboards and specialty paper products."
-          />
-        </div>
-      </div>
-
-      <div className="py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-12 lg:grid-cols-12">
-            <div className="space-y-6 lg:col-span-7">
-              <h2 className="font-display text-2xl font-bold text-ink">
-                Reliable sourcing for global markets
-              </h2>
-              <p className="text-base leading-relaxed text-charcoal/75">
-                Sparex India specializes in the sourcing and international trading of paper,
-                paperboard and packaging materials. We work with manufacturers and suppliers to
-                serve customers looking for reliable supply, competitive pricing and products that
-                meet their required specifications.
-              </p>
-              <p className="text-base leading-relaxed text-charcoal/75">
-                Our business is focused on building long-term relationships with paper mills,
-                manufacturers, converters, distributors and international buyers. Whether you are
-                looking for a single container or regular supply, we work to find the right product
-                and supply solution for your market.
-              </p>
-              <p className="text-base leading-relaxed text-charcoal/75">
-                Our focus is simple — understand your requirement, identify the right supply
-                source, offer competitive solutions and support you throughout the export process.
-              </p>
-            </div>
-
-            <aside className="lg:col-span-5">
-              <div className="paper-edge-shadow border-l-2 border-sparex-red bg-cream p-8">
-                <h3 className="label-caps mb-4">Product categories</h3>
-                <ul className="space-y-4">
-                  {PRODUCT_CATEGORIES.map((cat) => (
-                    <li key={cat.id}>
-                      <p className="text-sm font-semibold text-charcoal">{cat.name}</p>
-                      <p className="mt-1 text-xs text-charcoal/60">{cat.description}</p>
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="mt-8 space-y-3 text-sm">
-                  <a
-                    href={`tel:${COMPANY.phone.replace(/\s/g, '')}`}
-                    className="flex items-center gap-2 text-charcoal transition-colors hover:text-sparex-red"
-                  >
-                    <Phone size={16} className="text-sparex-red" aria-hidden="true" />
-                    {COMPANY.phone}
-                  </a>
-                  <a
-                    href={`mailto:${COMPANY.email}`}
-                    className="flex items-center gap-2 text-charcoal transition-colors hover:text-sparex-red"
-                  >
-                    <Mail size={16} className="text-sparex-red" aria-hidden="true" />
-                    {COMPANY.email}
-                  </a>
-                  <div className="flex items-start gap-2 text-charcoal/70">
-                    <MapPin size={16} className="mt-0.5 shrink-0 text-sparex-red" aria-hidden="true" />
-                    <address className="not-italic">{COMPANY.address.full}</address>
-                  </div>
-                </div>
-
-                <div className="mt-6">
-                  <Button href="/contact" variant="primary" className="w-full">
-                    Request a Quote
-                  </Button>
-                </div>
+          <div className="mt-12 grid gap-12 lg:grid-cols-[1fr_360px]">
+            <Reveal>
+              <div className="space-y-5 text-base leading-relaxed text-charcoal/75">
+                <p>
+                  {COMPANY.name} is a focused sourcing and import-export company based in Chennai,
+                  India. The business connects buyers, distributors, and supply partners for power
+                  weeder and small-engine spare parts.
+                </p>
+                <p>
+                  {POWER_WEEDER.description} Work begins with understanding the buyer&apos;s
+                  requirement — engine model, item code, specification, quantity, and destination —
+                  and proceeds through sourcing, alignment, and coordinated trade execution.
+                </p>
+                <p>
+                  Current catalogue coverage includes 170F, 173F, 177F, and 186F engine spare-part
+                  families. Additional parts may be sourced by requirement where suitable supply can
+                  be identified and confirmed.
+                </p>
               </div>
-            </aside>
+            </Reveal>
+
+            <Reveal delay={0.1}>
+              <aside className="border border-charcoal/10 bg-paper p-6">
+                <h2 className="label-meta mb-4">Registered office</h2>
+                <address className="not-italic text-sm leading-relaxed text-charcoal/75">
+                  {COMPANY.address.full}
+                </address>
+                <div className="tech-rule my-5" />
+                <ul className="space-y-3 text-sm">
+                  <li>
+                    <a
+                      href={`tel:${COMPANY.phone.replace(/\s/g, '')}`}
+                      className="flex items-center gap-2 hover:text-sparex-red"
+                    >
+                      <Phone size={15} className="text-sparex-red" aria-hidden="true" />
+                      {COMPANY.phone}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={`mailto:${COMPANY.email}`}
+                      className="flex items-center gap-2 hover:text-sparex-red"
+                    >
+                      <Mail size={15} className="text-sparex-red" aria-hidden="true" />
+                      {COMPANY.email}
+                    </a>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <MapPin size={15} className="mt-0.5 text-sparex-red" aria-hidden="true" />
+                    {COMPANY.location}
+                  </li>
+                </ul>
+                <p className="label-meta mt-5">GSTIN: {COMPANY.gstin}</p>
+              </aside>
+            </Reveal>
           </div>
+
+          <StaggerReveal className="mt-20">
+            <SectionLabel index="Process" label="Trade process" />
+            <SectionTitle className="reveal-item mt-4">How Sparex works with buyers.</SectionTitle>
+            <div className="reveal-item mt-10 grid gap-px bg-charcoal/10 md:grid-cols-4">
+              {TRADE_PROCESS.map((step) => (
+                <div key={step.step} className="bg-cream p-6">
+                  <span className="font-mono text-xl text-sparex-red">{step.step}</span>
+                  <h3 className="mt-3 font-medium text-ink">{step.title}</h3>
+                  <p className="mt-2 text-sm text-charcoal/65">{step.description}</p>
+                </div>
+              ))}
+            </div>
+          </StaggerReveal>
+
+          <Reveal className="mt-16 text-center">
+            <Button to="/contact?division=engine-spares" variant="primary">Request spare parts</Button>
+          </Reveal>
         </div>
-      </div>
+      </PageShell>
     </>
   );
 }

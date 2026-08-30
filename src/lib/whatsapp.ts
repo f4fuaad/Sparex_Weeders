@@ -4,7 +4,11 @@ const BASE = `https://wa.me/${COMPANY.phoneRaw}`;
 
 export const WHATSAPP_MESSAGES = {
   general:
-    'Hello Sparex India, I would like to enquire about paper and paperboard products for export. Please share available grades, specifications and commercial details.',
+    'Hello Sparex India, I would like to enquire about power weeder engine spare parts. Please share availability and quotation details.',
+  engine:
+    'Hello Sparex India, I would like to enquire about power weeder engine spare parts. Please share availability for my engine model and item code.',
+  paper:
+    'Hello Sparex India, I would like to enquire about paper and paperboard products. Please share available grades and specifications.',
 } as const;
 
 export type WhatsAppMessageKey = keyof typeof WHATSAPP_MESSAGES;
@@ -13,7 +17,7 @@ export function buildWhatsAppUrl(message: string): string {
   return `${BASE}?text=${encodeURIComponent(message)}`;
 }
 
-export function getWhatsAppUrl(key: WhatsAppMessageKey = 'general'): string {
+export function getWhatsAppUrl(key: WhatsAppMessageKey = 'engine'): string {
   return buildWhatsAppUrl(WHATSAPP_MESSAGES[key]);
 }
 
@@ -22,11 +26,18 @@ export function buildFormWhatsAppMessage(data: {
   company: string;
   email: string;
   phone: string;
-  product: string;
+  enquiryType: string;
+  division: string;
+  engineModel?: string;
+  itemCode?: string;
   gsm?: string;
-  quantity: string;
-  destination?: string;
-  location: string;
+  format?: string;
+  size?: string;
+  application?: string;
+  quantity?: string;
+  destinationCountry?: string;
+  destinationPort?: string;
+  timeline?: string;
   message: string;
 }): string {
   const lines = [
@@ -36,11 +47,18 @@ export function buildFormWhatsAppMessage(data: {
     `Company: ${data.company}`,
     `Email: ${data.email}`,
     `Phone: ${data.phone}`,
-    `Product: ${data.product}`,
+    `Enquiry type: ${data.enquiryType}`,
+    `Division: ${data.division}`,
+    data.engineModel ? `Engine model: ${data.engineModel}` : '',
+    data.itemCode ? `Item code: ${data.itemCode}` : '',
     data.gsm ? `GSM: ${data.gsm}` : '',
+    data.format ? `Format: ${data.format}` : '',
+    data.size ? `Size: ${data.size}` : '',
+    data.application ? `Application: ${data.application}` : '',
     data.quantity ? `Quantity: ${data.quantity}` : '',
-    data.destination ? `Destination: ${data.destination}` : '',
-    data.location ? `Delivery: ${data.location}` : '',
+    data.destinationCountry ? `Destination country: ${data.destinationCountry}` : '',
+    data.destinationPort ? `Destination port: ${data.destinationPort}` : '',
+    data.timeline ? `Timeline: ${data.timeline}` : '',
     data.message ? `Requirement: ${data.message}` : '',
   ].filter(Boolean);
 

@@ -1,99 +1,101 @@
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 import SEOHead from '../components/seo/SEOHead';
-import { SectionHeading } from '../components/ui/ChapterMarker';
+import { PageShell } from '../components/layout/Layout';
 import EnquiryForm from '../components/sections/EnquiryForm';
 import { COMPANY } from '../lib/constants';
 import { getWhatsAppUrl } from '../lib/whatsapp';
+import { Reveal } from '../components/motion/Reveal';
+import { SectionLabel, SectionTitle } from '../components/sections/HomeHero';
+import Button from '../components/ui/Button';
 
 export default function ContactPage() {
   return (
     <>
       <SEOHead
-        title="Contact Sparex India — Paper & Paperboard Enquiries"
-        description={`Contact Sparex India for paper and paperboard export enquiries. Call ${COMPANY.phone}, email ${COMPANY.email}, or WhatsApp our sales team.`}
+        title="Contact — Power Weeder Engine Spares | Sparex India"
+        description={`Contact Sparex India for power weeder engine spare parts. Call ${COMPANY.phone}, email ${COMPANY.email}, or submit a parts enquiry.`}
         path="/contact"
       />
+      <PageShell>
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 md:py-24">
+          <div className="grid gap-12 lg:grid-cols-[1fr_380px]">
+            <div>
+              <Reveal>
+                <SectionLabel index="Enq." label="Parts enquiry" />
+                <SectionTitle className="mt-4">Request power weeder spare parts.</SectionTitle>
+                <p className="mt-4 max-w-xl text-charcoal/70">
+                  Share engine model, item code, and quantity where possible. Submitting opens your
+                  email client — it does not confirm delivery until the message is sent.
+                </p>
+              </Reveal>
 
-      <div className="section-warm border-b border-warm-stone/40 py-20 md:py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            chapter="Contact"
-            title="Let's talk about your paper requirement."
-            description="Send us your product specification and quantity. We will review your requirement and provide a suitable commercial offer."
-          />
-        </div>
-      </div>
-
-      <div className="py-16 md:py-24">
-        <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:gap-16 lg:px-8">
-          <aside className="lg:col-span-4">
-            <div className="paper-edge-shadow sticky top-28 border border-warm-stone/40 bg-cream p-8">
-              <h2 className="font-display text-lg font-bold text-ink">{COMPANY.legalName}</h2>
-              <address className="mt-4 not-italic text-sm leading-relaxed text-charcoal/75 border-l-2 border-sparex-red pl-4">
-                {COMPANY.address.line1}
-                <br />
-                {COMPANY.address.city}
-                <br />
-                {COMPANY.address.state}
-              </address>
-
-              <ul className="mt-8 space-y-4">
-                <li>
-                  <a
-                    href={`tel:${COMPANY.phone.replace(/\s/g, '')}`}
-                    className="group flex items-center gap-3 text-charcoal transition-colors hover:text-sparex-red"
-                  >
-                    <span className="flex h-10 w-10 items-center justify-center bg-charcoal text-ivory transition-colors group-hover:bg-sparex-red">
-                      <Phone size={18} aria-hidden="true" />
-                    </span>
-                    {COMPANY.phone}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href={`mailto:${COMPANY.email}`}
-                    className="group flex items-center gap-3 text-charcoal transition-colors hover:text-sparex-red"
-                  >
-                    <span className="flex h-10 w-10 items-center justify-center bg-charcoal text-ivory transition-colors group-hover:bg-sparex-red">
-                      <Mail size={18} aria-hidden="true" />
-                    </span>
-                    {COMPANY.email}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href={getWhatsAppUrl('general')}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="group flex items-center gap-3 text-charcoal transition-colors hover:text-whatsapp"
-                  >
-                    <span className="flex h-10 w-10 items-center justify-center bg-whatsapp text-white">
-                      <MessageCircle size={18} aria-hidden="true" />
-                    </span>
-                    WhatsApp Sales
-                  </a>
-                </li>
-              </ul>
-
-              <div className="mt-8 space-y-1 text-xs text-paper-grey">
-                <p>GSTIN: {COMPANY.gstin}</p>
-                <p>State: {COMPANY.state}</p>
-              </div>
-
-              <div className="mt-6 flex items-start gap-2 text-sm text-charcoal/65">
-                <MapPin size={16} className="mt-0.5 shrink-0 text-sparex-red" aria-hidden="true" />
-                <span>Chennai, Tamil Nadu, India</span>
-              </div>
+              <Reveal className="mt-10">
+                <EnquiryForm />
+              </Reveal>
             </div>
-          </aside>
 
-          <div className="lg:col-span-8">
-            <div className="paper-edge-shadow border border-warm-stone/40 bg-cream p-6 md:p-10">
-              <EnquiryForm showTitle />
-            </div>
+            <Reveal delay={0.1}>
+              <aside className="space-y-6">
+                <div className="border border-charcoal/10 bg-paper p-6">
+                  <h2 className="label-meta mb-4">Direct contact</h2>
+                  <ul className="space-y-4 text-sm">
+                    <li>
+                      <a
+                        href={`tel:${COMPANY.phone.replace(/\s/g, '')}`}
+                        className="flex items-center gap-3 text-charcoal hover:text-sparex-red"
+                      >
+                        <Phone size={18} className="text-sparex-red" aria-hidden="true" />
+                        {COMPANY.phone}
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={`mailto:${COMPANY.email}`}
+                        className="flex items-center gap-3 text-charcoal hover:text-sparex-red"
+                      >
+                        <Mail size={18} className="text-sparex-red" aria-hidden="true" />
+                        {COMPANY.email}
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href={getWhatsAppUrl('engine')}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center gap-3 text-charcoal hover:text-whatsapp"
+                      >
+                        <MessageCircle size={18} className="text-whatsapp" aria-hidden="true" />
+                        WhatsApp Sales
+                      </a>
+                    </li>
+                    <li className="flex items-start gap-3 text-charcoal/75">
+                      <MapPin size={18} className="mt-0.5 shrink-0 text-sparex-red" aria-hidden="true" />
+                      {COMPANY.address.full}
+                    </li>
+                  </ul>
+                  <p className="label-meta mt-5">GSTIN: {COMPANY.gstin}</p>
+                </div>
+
+                <div className="border border-charcoal/10 bg-bone/50 p-6">
+                  <h2 className="label-meta mb-3">WhatsApp alternative</h2>
+                  <p className="text-sm text-charcoal/65">
+                    For faster responses, continue directly on WhatsApp with your requirement details.
+                  </p>
+                  <Button
+                    href={getWhatsAppUrl('engine')}
+                    external
+                    variant="whatsapp"
+                    icon={MessageCircle}
+                    className="mt-4 w-full"
+                  >
+                    Open WhatsApp
+                  </Button>
+                </div>
+              </aside>
+            </Reveal>
           </div>
         </div>
-      </div>
+      </PageShell>
     </>
   );
 }

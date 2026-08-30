@@ -1,118 +1,118 @@
 import { Link } from 'react-router-dom';
+import { ArrowUpRight, Download } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
-type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'whatsapp' | 'outline';
+type Variant = 'primary' | 'secondary' | 'ghost-light' | 'whatsapp' | 'outline';
 
-interface ButtonBaseProps {
-  variant?: ButtonVariant;
+interface ButtonProps {
+  href?: string;
+  to?: string;
+  variant?: Variant;
+  external?: boolean;
   icon?: LucideIcon;
-  iconPosition?: 'left' | 'right';
   className?: string;
   children: React.ReactNode;
-}
-
-interface ButtonAsButton extends ButtonBaseProps {
-  href?: undefined;
-  type?: 'button' | 'submit' | 'reset';
   onClick?: () => void;
+  type?: 'button' | 'submit';
+  'aria-label'?: string;
   disabled?: boolean;
-  'aria-label'?: string;
 }
 
-interface ButtonAsLink extends ButtonBaseProps {
-  href: string;
-  external?: boolean;
-  'aria-label'?: string;
-}
-
-type ButtonProps = ButtonAsButton | ButtonAsLink;
-
-const variants: Record<ButtonVariant, string> = {
-  primary:
-    'bg-sparex-red text-white hover:bg-sparex-red/90 border border-sparex-red shadow-sm',
-  secondary:
-    'bg-charcoal text-ivory hover:bg-ink border border-charcoal',
-  ghost:
-    'bg-transparent text-charcoal border border-charcoal/20 hover:border-sparex-red hover:text-sparex-red',
-  whatsapp:
-    'bg-whatsapp text-white hover:bg-whatsapp/90 border border-whatsapp',
-  outline:
-    'bg-transparent text-charcoal border border-charcoal/20 hover:border-sparex-red hover:text-sparex-red',
+const variants: Record<Variant, string> = {
+  primary: 'btn-primary',
+  secondary: 'btn-secondary',
+  'ghost-light': 'btn-ghost-light',
+  whatsapp: 'btn-whatsapp',
+  outline: 'btn-secondary',
 };
 
-function cn(...classes: (string | undefined | false)[]) {
+function cn(...classes: (string | false | undefined)[]) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function Button(props: ButtonProps) {
-  const {
-    variant = 'primary',
-    icon: Icon,
-    iconPosition = 'left',
+export default function Button({
+  href,
+  to,
+  variant = 'primary',
+  external,
+  icon: Icon,
+  className,
+  children,
+  onClick,
+  type = 'button',
+  'aria-label': ariaLabel,
+  disabled,
+}: ButtonProps) {
+  const classes = cn(
+    'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sparex-red',
+    variants[variant],
+    disabled && 'pointer-events-none opacity-50',
     className,
-    children,
-  } = props;
-
-  const base =
-    'inline-flex items-center justify-center gap-2 px-5 py-3 text-sm font-medium tracking-wide transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sparex-red';
+  );
 
   const content = (
     <>
-      {Icon && iconPosition === 'left' && <Icon size={18} aria-hidden="true" />}
-      <span>{children}</span>
-      {Icon && iconPosition === 'right' && <Icon size={18} aria-hidden="true" />}
+      {Icon && <Icon size={16} aria-hidden="true" />}
+      {children}
+      {external && !Icon && <ArrowUpRight size={14} aria-hidden="true" />}
     </>
   );
 
-  if ('href' in props && props.href) {
-    const linkProps = props as ButtonAsLink;
-    const { href, external, 'aria-label': ariaLabel } = linkProps;
-    const isExternalWeb = external && !href.startsWith('tel:') && !href.startsWith('mailto:');
-    if (isExternalWeb) {
-      return (
-        <a
-          href={href}
-          target="_blank"
-          rel="noreferrer"
-          aria-label={ariaLabel}
-          className={cn(base, variants[variant], className)}
-        >
-          {content}
-        </a>
-      );
-    }
-    if (href.startsWith('/') || href.startsWith('#')) {
-      return (
-        <Link
-          to={href}
-          aria-label={ariaLabel}
-          className={cn(base, variants[variant], className)}
-        >
-          {content}
-        </Link>
-      );
-    }
+  if (to) {
+    return (
+      <Link to={to} className={classes} aria-label={ariaLabel}>
+        {content}
+      </Link>
+    );
+  }
+
+  if (href) {
     return (
       <a
         href={href}
+        className={classes}
+        target={external ? '_blank' : undefined}
+        rel={external ? 'noreferrer' : undefined}
         aria-label={ariaLabel}
-        className={cn(base, variants[variant], className)}
       >
         {content}
       </a>
     );
   }
 
-  const { type = 'button', onClick, disabled, 'aria-label': ariaLabel } = props as ButtonAsButton;
   return (
     <button
       type={type}
+      className={classes}
       onClick={onClick}
-      disabled={disabled}
       aria-label={ariaLabel}
-      className={cn(base, variants[variant], disabled && 'opacity-50 cursor-not-allowed', className)}
+      disabled={disabled}
     >
       {content}
     </button>
+  );
+}
+
+export function DownloadLink({
+  href,
+  label,
+  className,
+}: {
+  href: string;
+  label: string;
+  className?: string;
+}) {
+  return (
+    <a
+      href={href}
+      download
+      className={cn(
+        'inline-flex items-center gap-2 border border-charcoal/15 px-4 py-2.5 text-sm transition-colors hover:border-sparex-red hover:text-sparex-red',
+        className,
+      )}
+    >
+      <Download size={15} aria-hidden="true" />
+      {label}
+    </a>
   );
 }

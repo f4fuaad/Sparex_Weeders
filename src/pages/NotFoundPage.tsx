@@ -16,10 +16,10 @@ export default function NotFoundPage() {
           The page you are looking for does not exist or may have been moved.
         </p>
         <div className="mt-8 flex gap-3">
-          <Button href="/" variant="primary">
+          <Button to="/" variant="primary">
             Back to Home
           </Button>
-          <Button href="/contact" variant="outline">
+          <Button to="/contact" variant="secondary">
             Contact Us
           </Button>
         </div>

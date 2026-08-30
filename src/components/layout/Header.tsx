@@ -1,122 +1,120 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, MessageCircle } from 'lucide-react';
-import { NAV_LINKS } from '../../lib/constants';
+import { COMPANY, NAV_LINKS } from '../../lib/constants';
 import { getWhatsAppUrl } from '../../lib/whatsapp';
-import { useScrollHeader } from '../../hooks/useScrollHeader';
 import Button from '../ui/Button';
+import MobileMenu from './MobileMenu';
 
-export default function Header() {
-  const [open, setOpen] = useState(false);
-  const scrolled = useScrollHeader();
-  const location = useLocation();
+interface HeaderProps {
+  overlay?: boolean;
+}
 
-  const handleNavClick = (href: string) => {
-    setOpen(false);
-    if (href.startsWith('/#')) {
-      const id = href.replace('/#', '');
-      if (location.pathname === '/') {
-        setTimeout(() => {
-          document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
-      }
-    }
-  };
+export default function Header({ overlay = false }: HeaderProps) {
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const { pathname } = useLocation();
+  const headerRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 48);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
+
+  const isSolid = scrolled || !overlay;
+  const lightText = overlay && !scrolled;
 
   return (
-    <header
-      className={`sticky top-0 z-40 transition-all duration-300 ${
-        scrolled
-          ? 'bg-parchment/95 backdrop-blur-md shadow-sm border-b border-warm-stone/30 py-2'
-          : 'bg-parchment py-3'
-      }`}
-    >
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-        <Link to="/" className="shrink-0" aria-label="Sparex India — Home">
-          <img
-            src="/sparex-wordmark.svg"
-            alt="Sparex India"
-            className="h-8 w-auto md:h-10 object-contain object-left"
-            width={180}
-            height={48}
-          />
-        </Link>
+    <>
+      <header
+        ref={headerRef}
+        className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+          isSolid
+            ? 'header-glass'
+            : overlay
+              ? 'header-glass-dark'
+              : 'header-glass'
+        }`}
+      >
+        <div className="mx-auto flex h-[var(--header-height)] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+          <Link to="/" className="shrink-0" aria-label={`${COMPANY.name} — Home`}>
+            <img
+              src="/sparex-wordmark.svg"
+              alt="Sparex India"
+              className={`h-8 w-auto object-contain object-left md:h-9 ${lightText ? 'brightness-0 invert' : ''}`}
+              width={160}
+              height={36}
+            />
+          </Link>
 
-        <nav className="hidden lg:flex items-center gap-8" aria-label="Main navigation">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              to={link.href}
-              onClick={() => handleNavClick(link.href)}
-              className="text-sm font-medium text-charcoal/80 hover:text-sparex-red transition-colors tracking-wide"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
-
-        <div className="hidden lg:flex items-center gap-3">
-          <Button
-            href={getWhatsAppUrl('general')}
-            external
-            variant="ghost"
-            icon={MessageCircle}
-            className="!text-charcoal !border-charcoal/15 hover:!border-whatsapp hover:!text-whatsapp !py-2.5 !px-4 !bg-transparent"
-            aria-label="WhatsApp Sales"
-          >
-            WhatsApp
-          </Button>
-          <Button href="/contact" variant="primary" className="!py-2.5">
-            Request a Quote
-          </Button>
-        </div>
-
-        <button
-          type="button"
-          className="lg:hidden p-2 text-charcoal"
-          onClick={() => setOpen(!open)}
-          aria-expanded={open}
-          aria-controls="mobile-nav"
-          aria-label={open ? 'Close menu' : 'Open menu'}
-        >
-          {open ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </div>
-
-      {open && (
-        <nav
-          id="mobile-nav"
-          className="lg:hidden border-t border-warm-stone/30 bg-parchment px-4 py-4"
-          aria-label="Mobile navigation"
-        >
-          <div className="flex flex-col gap-1">
+          <nav className="hidden items-center gap-8 lg:flex" aria-label="Main navigation">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
                 to={link.href}
-                onClick={() => handleNavClick(link.href)}
-                className="py-3 text-base font-medium text-charcoal border-b border-paper-grey/15"
+                className={`text-sm tracking-wide transition-colors ${
+                  lightText
+                    ? 'text-paper/85 hover:text-paper'
+                    : pathname === link.href
+                      ? 'text-sparex-red'
+                      : 'text-charcoal/75 hover:text-charcoal'
+                }`}
               >
                 {link.label}
               </Link>
             ))}
-            <div className="flex flex-col gap-3 pt-4">
-              <Button
-                href={getWhatsAppUrl('general')}
-                external
-                variant="whatsapp"
-                icon={MessageCircle}
-                aria-label="WhatsApp Sales"
-              >
-                WhatsApp Sales
-              </Button>
-              <Button href="/contact" variant="primary">
-                Request a Quote
-              </Button>
-            </div>
+          </nav>
+
+          <div className="hidden items-center gap-3 lg:flex">
+            <Button
+              href={getWhatsAppUrl('engine')}
+              external
+              variant={lightText ? 'ghost-light' : 'secondary'}
+              icon={MessageCircle}
+              className="!py-2.5 !px-4 !text-xs"
+              aria-label="WhatsApp Sales"
+            >
+              WhatsApp
+            </Button>
+            <Button to="/contact" variant="primary" className="!py-2.5 !px-4 !text-xs">
+              Trade enquiry
+            </Button>
           </div>
-        </nav>
-      )}
-    </header>
+
+          <button
+            type="button"
+            className={`flex h-10 w-10 items-center justify-center lg:hidden ${
+              lightText ? 'text-paper' : 'text-charcoal'
+            }`}
+            onClick={() => setMenuOpen(true)}
+            aria-label="Open menu"
+            aria-expanded={menuOpen}
+          >
+            <Menu size={22} />
+          </button>
+        </div>
+      </header>
+
+      <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
+    </>
+  );
+}
+
+export function HeaderCloseButton({ onClose }: { onClose: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClose}
+      className="flex h-10 w-10 items-center justify-center text-charcoal"
+      aria-label="Close menu"
+    >
+      <X size={22} />
+    </button>
   );
 }
