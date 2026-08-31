@@ -12,7 +12,7 @@
   {
     "id": "170f-002",
     "itemCode": "170F-002",
-    "name": "AIR FILTER CLASSIC (OIL BATH)",
+    "name": "PLUG ADAPTOR",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -22,7 +22,7 @@
   {
     "id": "170f-003",
     "itemCode": "170F-003",
-    "name": "RECOIL STARTER",
+    "name": "AIR FILTER CLASSIC (OIL BATH)",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -32,7 +32,7 @@
   {
     "id": "170f-004",
     "itemCode": "170F-004",
-    "name": "STARTER SPRING",
+    "name": "AIR FILTER NUT, SCREW AND PLATE",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -42,7 +42,7 @@
   {
     "id": "170f-005",
     "itemCode": "170F-005",
-    "name": "STARTER REEL",
+    "name": "AIR DUCT PIPE",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -52,7 +52,7 @@
   {
     "id": "170f-006",
     "itemCode": "170F-006",
-    "name": "STARTER ROPE (SINGLE PIECE) 1.25m",
+    "name": "RECOIL STARTER",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -62,7 +62,7 @@
   {
     "id": "170f-007",
     "itemCode": "170F-007",
-    "name": "STARTER HANDLE PVC",
+    "name": "STARTER SPRING",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -72,7 +72,7 @@
   {
     "id": "170f-008",
     "itemCode": "170F-008",
-    "name": "STARTER PAWL KIT",
+    "name": "STARTER REEL",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -82,18 +82,17 @@
   {
     "id": "170f-009",
     "itemCode": "170F-009",
-    "name": "CARBURATOR (HIGH QUALITY)",
+    "name": "STARTER PULLEY METAL",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false,
-    "qualityVariant": "premium"
+    "needsReview": false
   },
   {
     "id": "170f-010",
     "itemCode": "170F-010",
-    "name": "INSULATOR",
+    "name": "STARTER SCREW",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -103,7 +102,7 @@
   {
     "id": "170f-011",
     "itemCode": "170F-011",
-    "name": "SWITCH WITH WIRE",
+    "name": "STARTER ROPE (SINGLE PIECE) 1.25m",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -113,7 +112,7 @@
   {
     "id": "170f-012",
     "itemCode": "170F-012",
-    "name": "CYLINDER HEAD",
+    "name": "STARTER HANDLE PVC",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -123,7 +122,7 @@
   {
     "id": "170f-013",
     "itemCode": "170F-013",
-    "name": "PISTON SET WITH RINGS",
+    "name": "STARTER PAWL KIT",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -133,7 +132,7 @@
   {
     "id": "170f-014",
     "itemCode": "170F-014",
-    "name": "CRANKSHAFT (25MM)",
+    "name": "ENGINE FAN COVER",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -143,7 +142,7 @@
   {
     "id": "170f-015",
     "itemCode": "170F-015",
-    "name": "IGNITION COIL",
+    "name": "CARBURATOR (ECO QUALITY)",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -153,7 +152,7 @@
   {
     "id": "170f-016",
     "itemCode": "170F-016",
-    "name": "OIL SEAL",
+    "name": "CARBURATOR (GOOD QUALITY)",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -163,879 +162,6 @@
   {
     "id": "170f-017",
     "itemCode": "170F-017",
-    "name": "OIL SEAL (20*35*7)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-018",
-    "itemCode": "170F-018",
-    "name": "OIL SEAL (25*47*7)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-019",
-    "itemCode": "170F-019",
-    "name": "ENGINE VALVE (SET) HIGH QUALITY",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false,
-    "qualityVariant": "premium"
-  },
-  {
-    "id": "170f-020",
-    "itemCode": "170F-020",
-    "name": "ENGINE VALVE (SET) ECONOMY QUALITY",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-021",
-    "itemCode": "170F-021",
-    "name": "CONNECTING ROD",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-022",
-    "itemCode": "170F-022",
-    "name": "IRON CAMSHAFT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-023",
-    "itemCode": "170F-023",
-    "name": "PETROL TANK",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-024",
-    "itemCode": "170F-024",
-    "name": "PETROL CAP",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-025",
-    "itemCode": "170F-025",
-    "name": "OIL GAUGE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-026",
-    "itemCode": "170F-026",
-    "name": "CRANK CASE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-027",
-    "itemCode": "170F-027",
-    "name": "SILENCER",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-028",
-    "itemCode": "170F-028",
-    "name": "7 HP CLUTCH 8 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-029",
-    "itemCode": "170F-029",
-    "name": "7HP CLUTCH 12 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-030",
-    "itemCode": "170F-030",
-    "name": "7 HP REVERSE CLUTCH 8 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-031",
-    "itemCode": "170F-031",
-    "name": "7 HP REVERSE CLUTCH 12 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-032",
-    "itemCode": "170F-032",
-    "name": "7HP CLUTCH COVER 8 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-033",
-    "itemCode": "170F-033",
-    "name": "7HP CLUTCH COVER 12 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-034",
-    "itemCode": "170F-034",
-    "name": "CARBURATOR GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-035",
-    "itemCode": "170F-035",
-    "name": "AIR FILTER GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-036",
-    "itemCode": "170F-036",
-    "name": "INSULATOR GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-037",
-    "itemCode": "170F-037",
-    "name": "SILENCER GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-038",
-    "itemCode": "170F-038",
-    "name": "CYLINDER GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-039",
-    "itemCode": "170F-039",
-    "name": "CRANKCASE GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-040",
-    "itemCode": "170F-040",
-    "name": "CYLINDER HEAD GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-041",
-    "itemCode": "170F-041",
-    "name": "GASKET SET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-042",
-    "itemCode": "170F-042",
-    "name": "7HP ACCERELATOR CABLE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-043",
-    "itemCode": "170F-043",
-    "name": "7HP REVERSE CABLE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-044",
-    "itemCode": "170F-044",
-    "name": "7HP CLUTCH CABLE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-045",
-    "itemCode": "170F-045",
-    "name": "7 HP EMERGENCY STOP CABLE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-046",
-    "itemCode": "170F-046",
-    "name": "7HP THROTTLE SWITCH",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-047",
-    "itemCode": "170F-047",
-    "name": "7HP/9HP START STOP SWITCH WITH CABLE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-048",
-    "itemCode": "170F-048",
-    "name": "7HP/9HP CLUTCH HANDLE WITH PINS",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-049",
-    "itemCode": "170F-049",
-    "name": "7HP/9HP REVERSE HANDLE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-050",
-    "itemCode": "170F-050",
-    "name": "CLUTCH HANDLE COTTER WITH PIN (M10*22)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-051",
-    "itemCode": "170F-051",
-    "name": "COTTER WITH PIN (M7*22)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-052",
-    "itemCode": "170F-052",
-    "name": "COTTER ONLY (M8*50)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-053",
-    "itemCode": "170F-053",
-    "name": "R PIN (#2)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-054",
-    "itemCode": "170F-054",
-    "name": "LATCH (#16)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-055",
-    "itemCode": "170F-055",
-    "name": "R PIN (#3)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-056",
-    "itemCode": "170F-056",
-    "name": "OIL DRAIN BOLT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-057",
-    "itemCode": "170F-057",
-    "name": "FLANGE ENGINE GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-058",
-    "itemCode": "170F-058",
-    "name": "FLANGE GEAR BOX GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-059",
-    "itemCode": "170F-059",
-    "name": "RETAINING GASKET (#16)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-060",
-    "itemCode": "170F-060",
-    "name": "SIDE COVER GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-061",
-    "itemCode": "170F-061",
-    "name": "CLUTCH GASKET (16*26*3)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-062",
-    "itemCode": "170F-062",
-    "name": "MUD BLOCK COVER",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-063",
-    "itemCode": "170F-063",
-    "name": "HANDLE FRAME LOCKER",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-064",
-    "itemCode": "170F-064",
-    "name": "HINGE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-065",
-    "itemCode": "170F-065",
-    "name": "HINGE CONNECTOR",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-066",
-    "itemCode": "170F-066",
-    "name": "MUD FENDER FRONT HOLDER",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-067",
-    "itemCode": "170F-067",
-    "name": "HEXAGANOL SHAFT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-068",
-    "itemCode": "170F-068",
-    "name": "400-8 TYRE ONLY",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-069",
-    "itemCode": "170F-069",
-    "name": "400-8 TYRE TUBE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-070",
-    "itemCode": "170F-070",
-    "name": "ENGINE (25MM CRANKSHAFT) FOR WEEDER - ( HIGH QUALITY )",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false,
-    "qualityVariant": "premium"
-  },
-  {
-    "id": "170f-071",
-    "itemCode": "170F-071",
-    "name": "ENGINE (25MM CRANKSHAFT) FOR WEEDER ( HUAYI CARBURATOR - PREMIUM QUALITY )",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false,
-    "qualityVariant": "premium"
-  },
-  {
-    "id": "170f-072",
-    "itemCode": "170F-072",
-    "name": "FUEL TANK STRIANER",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-073",
-    "itemCode": "170F-073",
-    "name": "OIL OUTLET NOZZLE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-074",
-    "itemCode": "170F-074",
-    "name": "SPEED CONTROL GEAR SET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-075",
-    "itemCode": "170F-075",
-    "name": "VALVE SPRING SEAT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-076",
-    "itemCode": "170F-076",
-    "name": "SPRING SET (3PCS)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-077",
-    "itemCode": "170F-077",
-    "name": "SPEED REGULATING SPRING",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-078",
-    "itemCode": "170F-078",
-    "name": "SPEED CONTROLLING SEAT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-079",
-    "itemCode": "170F-079",
-    "name": "PISTON RINGS",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-080",
-    "itemCode": "170F-080",
-    "name": "SWITCH WITH WIRE (3LINE)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-081",
-    "itemCode": "170F-081",
-    "name": "BUMPER",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-082",
-    "itemCode": "170F-082",
-    "name": "MAIN SHAFT GEAR",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-083",
-    "itemCode": "170F-083",
-    "name": "UMBEREALLA BEVEL 30T GEAR",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-084",
-    "itemCode": "170F-084",
-    "name": "DRIVEN BEVEL GEAR SHAFT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-085",
-    "itemCode": "170F-085",
-    "name": "LAY SHAFT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-086",
-    "itemCode": "170F-086",
-    "name": "CYLINDER STUD",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-087",
-    "itemCode": "170F-087",
-    "name": "STARTER SCREW",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-088",
-    "itemCode": "170F-088",
-    "name": "AIR FILTER BOLT",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-089",
-    "itemCode": "170F-089",
-    "name": "BEARING 30203",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-090",
-    "itemCode": "170F-090",
-    "name": "BEARING 30204",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-091",
-    "itemCode": "170F-091",
-    "name": "BEARING 30205",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-092",
-    "itemCode": "170F-092",
-    "name": "CLUTCH FORK",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-093",
-    "itemCode": "170F-093",
-    "name": "CLUTCH WIRE BASE (M8*30)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-094",
-    "itemCode": "170F-094",
-    "name": "DOUBLE WIRE BASE",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-095",
-    "itemCode": "170F-095",
-    "name": "BLANK CAP",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-096",
-    "itemCode": "170F-096",
-    "name": "BLANK CAP GASKET",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-097",
-    "itemCode": "170F-097",
-    "name": "O RING (#14*2)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-098",
-    "itemCode": "170F-098",
-    "name": "CLUTCH FRICTION PLATE 8 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-099",
-    "itemCode": "170F-099",
-    "name": "CLUTCH FRICTION PLATE 12 LEAF",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-100",
-    "itemCode": "170F-100",
-    "name": "CLUTCH COVER 8 LEAF WITH BEARING",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-101",
-    "itemCode": "170F-101",
-    "name": "CLUTCH COVER 12 LEAF WITH BEARING",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-102",
-    "itemCode": "170F-102",
-    "name": "OIL SEAL (25*41.25*7)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-103",
-    "itemCode": "170F-103",
-    "name": "GEAR BOX GASKET (SQUARE)",
-    "engineFamily": "170F",
-    "fuelType": "petrol",
-    "category": "other",
-    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false
-  },
-  {
-    "id": "170f-104",
-    "itemCode": "170F-104",
     "name": "HUAYI CARBURATOR (PREMIUM QUALITY)",
     "engineFamily": "170F",
     "fuelType": "petrol",
@@ -1045,9 +171,870 @@
     "qualityVariant": "premium"
   },
   {
+    "id": "170f-018",
+    "itemCode": "170F-018",
+    "name": "PETROL TUBE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-019",
+    "itemCode": "170F-019",
+    "name": "IGNITION COIL",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-020",
+    "itemCode": "170F-020",
+    "name": "INSULATOR",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-021",
+    "itemCode": "170F-021",
+    "name": "SWITCH WITH WIRE (2 LINE)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-022",
+    "itemCode": "170F-022",
+    "name": "SWITCH WITH WIRE (3 LINE)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-023",
+    "itemCode": "170F-023",
+    "name": "CYLINDER HEAD (COMPLETE SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-024",
+    "itemCode": "170F-024",
+    "name": "CYLINDER STUD",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-025",
+    "itemCode": "170F-025",
+    "name": "ENGINE VALVE (SET) HIGH QUALITY",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false,
+    "qualityVariant": "premium"
+  },
+  {
+    "id": "170f-026",
+    "itemCode": "170F-026",
+    "name": "INTAKE VALVE SEAT (SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-027",
+    "itemCode": "170F-027",
+    "name": "TAPPET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-028",
+    "itemCode": "170F-028",
+    "name": "VALVE SPRING (SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-029",
+    "itemCode": "170F-029",
+    "name": "PISTON SET WITH RINGS (STD)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-030",
+    "itemCode": "170F-030",
+    "name": "PISTON SET WITH RINGS (0.25)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-031",
+    "itemCode": "170F-031",
+    "name": "PISTON SET WITH RINGS (0.5)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-032",
+    "itemCode": "170F-032",
+    "name": "PISTON RINGS ONLY 170 (STD)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-033",
+    "itemCode": "170F-033",
+    "name": "PISTON RINGS ONLY 170 (0.25)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-034",
+    "itemCode": "170F-034",
+    "name": "PISTON RINGS ONLY 170 (0.50)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-035",
+    "itemCode": "170F-035",
+    "name": "CRANKSHAFT (25MM)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-036",
+    "itemCode": "170F-036",
+    "name": "OIL SEAL",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-037",
+    "itemCode": "170F-037",
+    "name": "OIL SEAL (20*35*7)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-038",
+    "itemCode": "170F-038",
+    "name": "OIL SEAL (25*47*7)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-039",
+    "itemCode": "170F-039",
+    "name": "OIL SEAL (25*41.25*7)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-040",
+    "itemCode": "170F-040",
+    "name": "METAL OIL SEAL",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-042",
+    "itemCode": "170F-042",
+    "name": "CONNECTING ROD (STD)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-043",
+    "itemCode": "170F-043",
+    "name": "CONNECTING ROD (0.25)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-044",
+    "itemCode": "170F-044",
+    "name": "CONNECTING ROD (0.50)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-045",
+    "itemCode": "170F-045",
+    "name": "IRON CAMSHAFT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-046",
+    "itemCode": "170F-046",
+    "name": "PETROL TANK (SCREW THREAD TYPE)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-047",
+    "itemCode": "170F-047",
+    "name": "PETROL CAP (SCREW THREAD)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-048",
+    "itemCode": "170F-048",
+    "name": "FUEL TANK STRAINER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-049",
+    "itemCode": "170F-049",
+    "name": "OIL OUTLET NOZZLE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-050",
+    "itemCode": "170F-050",
+    "name": "OIL GAUGE (ENGINE)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-051",
+    "itemCode": "170F-051",
+    "name": "OIL GAUGE (GEAR BOX)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-052",
+    "itemCode": "170F-052",
+    "name": "OIL DRAIN BOLT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-053",
+    "itemCode": "170F-053",
+    "name": "SPEED CONTROLLING SEAT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-054",
+    "itemCode": "170F-054",
+    "name": "SPEED CONTROL GEAR SET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-055",
+    "itemCode": "170F-055",
+    "name": "SPRING SET (3PCS)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-056",
+    "itemCode": "170F-056",
+    "name": "SPEED REGULATING SPRING",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-057",
+    "itemCode": "170F-057",
+    "name": "SILENCER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-058",
+    "itemCode": "170F-058",
+    "name": "FLY WHEEL MANUAL",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-059",
+    "itemCode": "170F-059",
+    "name": "CRANK CASE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-060",
+    "itemCode": "170F-060",
+    "name": "CARBURATOR GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-061",
+    "itemCode": "170F-061",
+    "name": "AIR FILTER GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-062",
+    "itemCode": "170F-062",
+    "name": "INSULATOR GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-063",
+    "itemCode": "170F-063",
+    "name": "SILENCER GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-064",
+    "itemCode": "170F-064",
+    "name": "CYLINDER GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-065",
+    "itemCode": "170F-065",
+    "name": "CRANKCASE GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-066",
+    "itemCode": "170F-066",
+    "name": "CYLINDER HEAD GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-067",
+    "itemCode": "170F-067",
+    "name": "GASKET SET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-068",
+    "itemCode": "170F-068",
+    "name": "7HP THROTTLE SWITCH (BLACK)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-069",
+    "itemCode": "170F-069",
+    "name": "7HP THROTTLE SWITCH (RED AND BLACK)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-070",
+    "itemCode": "170F-070",
+    "name": "7HP THROTTLE SWITCH (RED AND YELLOW)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-071",
+    "itemCode": "170F-071",
+    "name": "7HP ACCERELATOR CABLE (STRAIGHT NAIL)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-072",
+    "itemCode": "170F-072",
+    "name": "7HP ACCERELATOR CABLE (CROSS NAIL)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-073",
+    "itemCode": "170F-073",
+    "name": "7HP ACCERELATOR CABLE (205P ADJUSTMENT TYPE)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-074",
+    "itemCode": "170F-074",
+    "name": "7HP REVERSE CABLE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-075",
+    "itemCode": "170F-075",
+    "name": "7HP CLUTCH CABLE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-076",
+    "itemCode": "170F-076",
+    "name": "7 HP EMERGENCY STOP CABLE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-077",
+    "itemCode": "170F-077",
+    "name": "7HP/9HP START STOP SWITCH WITH CABLE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-078",
+    "itemCode": "170F-078",
+    "name": "HANDLE BAR",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-079",
+    "itemCode": "170F-079",
+    "name": "TOOL BOX",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-080",
+    "itemCode": "170F-080",
+    "name": "GRIP SLEEVE FOR HANDLE BAR",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-081",
+    "itemCode": "170F-081",
+    "name": "GEAR SHIFT LEVER (UPPER ROD AND LOWER ROD)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-082",
+    "itemCode": "170F-082",
+    "name": "CLUTCH FORK",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-083",
+    "itemCode": "170F-083",
+    "name": "CLUTCH FORK SHAFT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-084",
+    "itemCode": "170F-084",
+    "name": "REVERSE GEAR SHAFT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-085",
+    "itemCode": "170F-085",
+    "name": "CLUTCH WIRE BASE (M8*30)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-086",
+    "itemCode": "170F-086",
+    "name": "DOUBLE WIRE BASE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-087",
+    "itemCode": "170F-087",
+    "name": "BLANK CAP",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-088",
+    "itemCode": "170F-088",
+    "name": "BLANK CAP GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-089",
+    "itemCode": "170F-089",
+    "name": "O RING (#14*2)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-090",
+    "itemCode": "170F-090",
+    "name": "7HP/9HP CLUTCH HANDLE WITH PINS",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-091",
+    "itemCode": "170F-091",
+    "name": "7HP/9HP REVERSE HANDLE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-092",
+    "itemCode": "170F-092",
+    "name": "CLUTCH HANDLE COTTER WITH PIN (M10*22)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-093",
+    "itemCode": "170F-093",
+    "name": "COTTER WITH PIN (M7*22)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-094",
+    "itemCode": "170F-094",
+    "name": "COTTER WITH PIN (M8*40)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-095",
+    "itemCode": "170F-095",
+    "name": "COTTER WITH PIN (M8*50)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-096",
+    "itemCode": "170F-096",
+    "name": "R PIN (#2)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-097",
+    "itemCode": "170F-097",
+    "name": "LATCH (#16)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-098",
+    "itemCode": "170F-098",
+    "name": "R PIN (#3)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-099",
+    "itemCode": "170F-099",
+    "name": "PULL ROD (SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-100",
+    "itemCode": "170F-100",
+    "name": "PUSH ROD (SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-101",
+    "itemCode": "170F-101",
+    "name": "7 HP CLUTCH 8 LEAF",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-102",
+    "itemCode": "170F-102",
+    "name": "7HP CLUTCH 12 LEAF",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-103",
+    "itemCode": "170F-103",
+    "name": "7 HP REVERSE CLUTCH 8 LEAF",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-104",
+    "itemCode": "170F-104",
+    "name": "7 HP REVERSE CLUTCH 12 LEAF",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
     "id": "170f-105",
     "itemCode": "170F-105",
-    "name": "PETROL TUBE",
+    "name": "7HP CLUTCH COVER 8 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -1057,7 +1044,7 @@
   {
     "id": "170f-106",
     "itemCode": "170F-106",
-    "name": "PLUG ADAPTOR",
+    "name": "7HP CLUTCH COVER 12 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
@@ -1067,13 +1054,412 @@
   {
     "id": "170f-107",
     "itemCode": "170F-107",
-    "name": "TURBO ENGINE (25MM CRANKSHAFT) FOR WEEDER ( HUAYI CARBURATOR, HS AIR FILTER, SILENCER WITH GUARD PREMIUM QUALITY )",
+    "name": "CLUTCH COVER 8 LEAF WITH BEARING",
     "engineFamily": "170F",
     "fuelType": "petrol",
     "category": "other",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
-    "needsReview": false,
-    "qualityVariant": "premium"
+    "needsReview": false
+  },
+  {
+    "id": "170f-108",
+    "itemCode": "170F-108",
+    "name": "CLUTCH COVER 12 LEAF WITH BEARING",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-109",
+    "itemCode": "170F-109",
+    "name": "CLUTCH FRICTION PLATE 8 LEAF",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-110",
+    "itemCode": "170F-110",
+    "name": "CLUTCH FRICTION PLATE 12 LEAF",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-111",
+    "itemCode": "170F-111",
+    "name": "BEARING 30203",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-112",
+    "itemCode": "170F-112",
+    "name": "BEARING 30204",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-113",
+    "itemCode": "170F-113",
+    "name": "BEARING 30205",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-114",
+    "itemCode": "170F-114",
+    "name": "BUMPER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-115",
+    "itemCode": "170F-115",
+    "name": "BUMPER SPRING",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-116",
+    "itemCode": "170F-116",
+    "name": "MAIN SHAFT GEAR",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-117",
+    "itemCode": "170F-117",
+    "name": "UMBEREALLA BEVEL 30T GEAR",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-118",
+    "itemCode": "170F-118",
+    "name": "DRIVEN BEVEL GEAR SHAFT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-119",
+    "itemCode": "170F-119",
+    "name": "LAY SHAFT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-120",
+    "itemCode": "170F-120",
+    "name": "HANDLE FRAME LOCKER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-121",
+    "itemCode": "170F-121",
+    "name": "HINGE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-122",
+    "itemCode": "170F-122",
+    "name": "HINGE CONNECTOR",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-123",
+    "itemCode": "170F-123",
+    "name": "MUD FENDER FRONT HOLDER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-124",
+    "itemCode": "170F-124",
+    "name": "HEXAGANOL SHAFT",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-125",
+    "itemCode": "170F-125",
+    "name": "FLANGE ENGINE GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-126",
+    "itemCode": "170F-126",
+    "name": "FLANGE GEAR BOX GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-127",
+    "itemCode": "170F-127",
+    "name": "PTO LOCK NUT (#16)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-128",
+    "itemCode": "170F-128",
+    "name": "PTO LOCK NUT GASKET (#16)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-129",
+    "itemCode": "170F-129",
+    "name": "PTO GLAND COVER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-130",
+    "itemCode": "170F-130",
+    "name": "SIDE COVER GASKET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-131",
+    "itemCode": "170F-131",
+    "name": "CLUTCH GASKET (16*26*3)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-132",
+    "itemCode": "170F-132",
+    "name": "MUD BLOCK COVER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-133",
+    "itemCode": "170F-133",
+    "name": "GEAR BOX GASKET (SQUARE)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-134",
+    "itemCode": "170F-134",
+    "name": "GASKET SET (171 GEAR BOX)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-135",
+    "itemCode": "170F-135",
+    "name": "ARM SET FOR WEEDER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-136",
+    "itemCode": "170F-136",
+    "name": "HANDLE FRAME BASE (TEETH PLATE TYPE)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-137",
+    "itemCode": "170F-137",
+    "name": "171 GEAR BOX COVER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-138",
+    "itemCode": "170F-138",
+    "name": "171 SIDE COVER",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-139",
+    "itemCode": "170F-139",
+    "name": "171 SIDE FLANGE",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-140",
+    "itemCode": "170F-140",
+    "name": "171 WALKING TRANSMISSION BODY",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-141",
+    "itemCode": "170F-141",
+    "name": "171 GEAR BOX FULL SET",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-142",
+    "itemCode": "170F-142",
+    "name": "400-8 TYRE ONLY",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-143",
+    "itemCode": "170F-143",
+    "name": "400-8 TYRE TUBE ONLY",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-144",
+    "itemCode": "170F-144",
+    "name": "4.00-8 TYRE RIM ONLY",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-145",
+    "itemCode": "170F-145",
+    "name": "4.00-8 AIR TYRE WITH RIM (SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-146",
+    "itemCode": "170F-146",
+    "name": "4.00-8 SOLID TYRE WITH RIM AND 23MM HOLDER (SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
+  },
+  {
+    "id": "170f-147",
+    "itemCode": "170F-147",
+    "name": "5.00-12 AIR TYRE WITH RIM (SET)",
+    "engineFamily": "170F",
+    "fuelType": "petrol",
+    "category": "other",
+    "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
+    "needsReview": false
   },
   {
     "id": "173f-001",
