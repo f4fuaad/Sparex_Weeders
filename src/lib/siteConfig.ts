@@ -15,6 +15,12 @@ export const POWER_WEEDER = {
     'Power weeders, inter-cultivators, and compatible small petrol and diesel engine applications — confirmed against buyer requirement.',
 } as const;
 
+/** Brand assets */
+export const BRAND = {
+  logo: '/weederx-logo.png',
+  logoAlt: 'Weeder X — Powered by Sparex',
+} as const;
+
 /** Local power weeder imagery — replace in public/images/power-weeder/ when client photos are ready */
 export const POWER_WEEDER_IMAGES = {
   field: './images/power-weeder/field.png',
@@ -24,7 +30,8 @@ export const POWER_WEEDER_IMAGES = {
 /** Hero background video */
 export const HERO_VIDEO = './videos/hero.mp4';
 
-export const FIELD_IMAGE_ALT = 'Power weeder working in a crop field';
+export const FIELD_IMAGE_ALT =
+  'Red Weeder X power weeder tilling soil in a tropical crop field at golden hour';
+export const HERO_VIDEO_ALT = 'Person operating a motorized tiller in the field';
 
-export const ENGINE_PARTS_IMAGE_ALT =
-  'Engine spare parts for power weeder — piston, gaskets, filters, and components';
+export const ENGINE_PARTS_IMAGE_ALT = FIELD_IMAGE_ALT;

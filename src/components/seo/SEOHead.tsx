@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { COMPANY } from '../../lib/constants';
+import { BRAND } from '../../lib/siteConfig';
 
 interface SEOHeadProps {
   title: string;
@@ -51,12 +52,12 @@ export default function SEOHead({
       <meta property="og:url" content={url} />
       <meta property="og:site_name" content={COMPANY.name} />
       <meta property="og:locale" content="en_IN" />
-      <meta property="og:image" content={`${COMPANY.canonicalBase}/sparex-logo.png`} />
+      <meta property="og:image" content={`${COMPANY.canonicalBase}${BRAND.logo}`} />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={`${COMPANY.canonicalBase}/sparex-logo.png`} />
+      <meta name="twitter:image" content={`${COMPANY.canonicalBase}${BRAND.logo}`} />
 
       <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
     </Helmet>

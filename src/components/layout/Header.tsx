@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { COMPANY, NAV_LINKS } from '../../lib/constants';
+import { BRAND } from '../../lib/siteConfig';
 import { getWhatsAppUrl } from '../../lib/whatsapp';
 import Button from '../ui/Button';
 import MobileMenu from './MobileMenu';
@@ -43,13 +44,13 @@ export default function Header({ overlay = false }: HeaderProps) {
         }`}
       >
         <div className="mx-auto flex h-[var(--header-height)] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-          <Link to="/" className="shrink-0" aria-label={`${COMPANY.name} — Home`}>
+          <Link to="/" className="shrink-0 bg-transparent" aria-label={`${COMPANY.name} — Home`}>
             <img
-              src="/sparex-wordmark.svg"
-              alt="Sparex India"
-              className={`h-8 w-auto object-contain object-left md:h-9 ${lightText ? 'brightness-0 invert' : ''}`}
-              width={160}
-              height={36}
+              src={BRAND.logo}
+              alt={BRAND.logoAlt}
+              className="block h-12 w-auto max-w-[min(260px,60vw)] bg-transparent object-contain object-left md:h-14"
+              width={260}
+              height={52}
             />
           </Link>
 

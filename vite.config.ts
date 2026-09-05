@@ -9,6 +9,7 @@ export default defineConfig({
   // Relative paths so the built site works from a folder or zip without a server
   base: './',
   server: {
+    host: '0.0.0.0',
     port: 5173,
     open: '/engine-spares',
   },
