@@ -7,7 +7,7 @@ export const COMPANY = {
   subtagline: POWER_WEEDER.tagline,
   phone: '+91-6379806475',
   phoneRaw: '916379806475',
-  email: 'sales@sparex.com',
+  email: 'sales@sparex-india.net',
   gstin: '33DPZPB6496G1ZA',
   state: '33 – Tamil Nadu',
   address: {
