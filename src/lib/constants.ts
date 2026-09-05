@@ -17,7 +17,7 @@ export const COMPANY = {
     full: 'No. 201, GNT Road, Puzhal, Chennai – 600066, Tamil Nadu, India',
   },
   location: 'Chennai · Tamil Nadu · India',
-  canonicalBase: 'https://www.sparexindia.com',
+  canonicalBase: 'https://www.sparex-india.net',
 } as const;
 
 export const NAV_LINKS = [
