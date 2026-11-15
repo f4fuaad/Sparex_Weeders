@@ -22,6 +22,18 @@ CATALOGUES = {
 CODE_RE = re.compile(r"^\d{3}F-\d{3}$", re.I)
 SKIP_NAMES = {"ITEM CODE", "ITEM NAME", "PICTURE", "NO.", "SL", "SL.NO"}
 
+# Whole-word spelling corrections for names as printed in the supplier
+# catalogues (added 2026-11-16; without these the typos regenerate).
+SPELLING_FIXES = [
+    (re.compile(r"\bCARBURATOR\b"), "CARBURETOR"),
+    (re.compile(r"\bACCERELATOR\b"), "ACCELERATOR"),
+    (re.compile(r"\bDIPSSTICK\b"), "DIPSTICK"),
+    (re.compile(r"\bAIRC\b"), "AIR"),
+    (re.compile(r"\bHEXAGANOL\b"), "HEXAGONAL"),
+    (re.compile(r"\bUMBEREALLA\b"), "UMBRELLA"),
+    (re.compile(r"\bTAPET\b"), "TAPPET"),
+]
+
 
 def clean_name(raw: str | None, family: str) -> str:
     if not raw:
@@ -30,23 +42,33 @@ def clean_name(raw: str | None, family: str) -> str:
     name = re.sub(rf"\b{family}\b", "", name, flags=re.I)
     name = re.sub(r"\b\d{3}F\b", "", name, flags=re.I)
     name = re.sub(r"\s+", " ", name).strip(" ,-/")
+    for pat, rep in SPELLING_FIXES:
+        name = pat.sub(rep, name)
     if not name or name.upper() in SKIP_NAMES:
         return "[Name pending review]"
     return name
 
 
 def infer_category(name: str) -> str:
+    # First match wins. Order matters: specific parts before the systems
+    # they belong to (gaskets before systems, fuel before air, starter
+    # before fasteners, crankcase before fasteners/valve-train,
+    # valve-train before exhaust, transmission before bearings).
     n = name.upper()
     rules = [
-        (r"cylinder head|valve|rocker|intake|exhaust|valve seat|valve guide|valve spring|plunger", "cylinder-head-valve-train"),
-        (r"crankcase|crankshaft|connecting rod|piston|piston ring|camshaft|governor|flywheel", "crankcase-crankshaft-piston"),
-        (r"timing|gear assy|gear assembly", "timing"),
-        (r"starter|recoil|ignition|coil|spark|switch|electric", "starter-electric"),
-        (r"air filter|air intake|carburetor|carburettor|insulator", "air-intake-filter"),
-        (r"fuel|injector|injection|diesel filter|plunger|carb", "fuel-system"),
-        (r"muffler|exhaust|silencer", "exhaust-muffler"),
-        (r"gasket|seal|washer|shim|o-ring|oil seal", "gaskets-seals"),
-        (r"fuel tank|tank cap|petrol tank", "fuel-tank-cap"),
+        (r"FUEL TANK|PETROL TANK|DIESEL TANK|TANK CAP|FUEL CAP|PETROL CAP", "fuel-tank-cap"),
+        (r"GASKET|OIL SEAL|\bSEAL\b|O-RING|O RING|RUBBER RING", "gaskets-seals"),
+        (r"FUEL INJECTOR|FUEL INJECTION|INJECTOR|INJECTION|DIESEL FILTER|FUEL FILTER|FUEL PIPE|PLUNGER|THROTTLE|PETROL TUBE|ACCELERATOR CABLE|\bFUEL\b", "fuel-system"),
+        (r"AIR FILTER|AIR CLEANER|CARBURETOR|CARBURETTOR|INSULATOR|AIR DUCT|\bFILTER\b", "air-intake-filter"),
+        (r"STARTER|RECOIL|IGNITION|COIL|SPARK|\bPLUG\b|SWITCH|ELECTRIC|BATTERY|MOTOR|EMERGENCY STOP|STOP CABLE|STARTING", "starter-electric"),
+        (r"PISTON|CRANKSHAFT|CRANKCASE|CRANK CASE|CONNECTING ROD|CAMSHAFT|GOVERNOR|FLYWHEEL|FLY WHEEL|BALANCE|SPEED CONTROL|SPEED REGULATING|DIPSTICK", "crankcase-crankshaft-piston"),
+        (r"\bBOLT\b|\bNUT\b|\bSCREW\b|\bSTUD\b|\bPIN\b|COTTER|WASHER|SHIM|\bKEY\b", "fasteners"),
+        (r"CYLINDER HEAD|VALVE|ROCKER|TAPPET|PUSH ROD", "cylinder-head-valve-train"),
+        (r"MUFFLER|EXHAUST|SILENCER", "exhaust-muffler"),
+        (r"CLUTCH|GEAR BOX|GEARBOX|TRANSMISSION|REVERSE|BEVEL|PTO|SHIFT|LAY SHAFT|MAIN SHAFT|DRIVEN|PULL ROD|\bGEAR\b|171 |\bSHAFT\b", "transmission-clutch"),
+        (r"BEARING", "bearings"),
+        (r"TYRE|TIRE|\bRIM\b", "wheels-tyres"),
+        (r"\bFAN\b", "cooling"),
     ]
     for pat, cat in rules:
         if re.search(pat, n):
@@ -128,6 +150,11 @@ def main() -> None:
         "  | 'exhaust-muffler'",
         "  | 'gaskets-seals'",
         "  | 'fuel-tank-cap'",
+        "  | 'transmission-clutch'",
+        "  | 'fasteners'",
+        "  | 'bearings'",
+        "  | 'wheels-tyres'",
+        "  | 'cooling'",
         "  | 'other';",
         "export type QualityVariant = 'economic' | 'premium';",
         "",

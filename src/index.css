@@ -97,16 +97,14 @@
   }
 
   .header-glass {
-    background: rgba(250, 247, 242, 0.92);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    /* Solid opaque cream — page text must never show through the header. */
+    background: #faf7f2;
     border-bottom: 1px solid rgba(42, 38, 34, 0.08);
   }
 
   .header-glass-dark {
-    background: rgba(20, 19, 18, 0.55);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    /* Solid opaque graphite for the overlay header over the hero. */
+    background: #141312;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
 

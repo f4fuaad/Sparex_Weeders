@@ -93,6 +93,11 @@ export const ENGINE_CATEGORIES = [
   { id: 'exhaust-muffler', label: 'Exhaust / muffler' },
   { id: 'gaskets-seals', label: 'Gaskets / seals' },
   { id: 'fuel-tank-cap', label: 'Fuel tank / cap' },
+  { id: 'transmission-clutch', label: 'Transmission / clutch' },
+  { id: 'fasteners', label: 'Fasteners' },
+  { id: 'bearings', label: 'Bearings' },
+  { id: 'wheels-tyres', label: 'Wheels / tyres' },
+  { id: 'cooling', label: 'Cooling' },
   { id: 'other', label: 'Other' },
 ] as const;
 

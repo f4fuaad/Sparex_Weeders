@@ -11,6 +11,11 @@ export type EngineCategory =
   | 'exhaust-muffler'
   | 'gaskets-seals'
   | 'fuel-tank-cap'
+  | 'transmission-clutch'
+  | 'fasteners'
+  | 'bearings'
+  | 'wheels-tyres'
+  | 'cooling'
   | 'other';
 export type QualityVariant = 'economic' | 'premium';
 
@@ -41,7 +46,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SPARK PLUG",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -51,7 +56,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PLUG ADAPTOR",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -61,7 +66,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "AIR FILTER CLASSIC (OIL BATH)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -71,7 +76,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "AIR FILTER NUT, SCREW AND PLATE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -81,7 +86,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "AIR DUCT PIPE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -91,7 +96,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "RECOIL STARTER",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -101,7 +106,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER SPRING",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -111,7 +116,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER REEL",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -121,7 +126,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER PULLEY METAL",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -131,7 +136,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER SCREW",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -141,7 +146,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER ROPE (SINGLE PIECE) 1.25m",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -151,7 +156,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER HANDLE PVC",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -161,7 +166,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER PAWL KIT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -171,37 +176,37 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ENGINE FAN COVER",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cooling",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-015",
     "itemCode": "170F-015",
-    "name": "CARBURATOR (ECO QUALITY)",
+    "name": "CARBURETOR (ECO QUALITY)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-016",
     "itemCode": "170F-016",
-    "name": "CARBURATOR (GOOD QUALITY)",
+    "name": "CARBURETOR (GOOD QUALITY)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-017",
     "itemCode": "170F-017",
-    "name": "HUAYI CARBURATOR (PREMIUM QUALITY)",
+    "name": "HUAYI CARBURETOR (PREMIUM QUALITY)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false,
     "qualityVariant": "premium"
@@ -212,7 +217,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PETROL TUBE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -222,7 +227,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "IGNITION COIL",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -232,7 +237,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INSULATOR",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -242,7 +247,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SWITCH WITH WIRE (2 LINE)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -252,7 +257,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SWITCH WITH WIRE (3 LINE)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -262,7 +267,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER HEAD (COMPLETE SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -272,7 +277,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER STUD",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -282,7 +287,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ENGINE VALVE (SET) HIGH QUALITY",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false,
     "qualityVariant": "premium"
@@ -293,7 +298,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INTAKE VALVE SEAT (SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -303,7 +308,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "TAPPET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -313,7 +318,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SPRING (SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -323,7 +328,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON SET WITH RINGS (STD)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -333,7 +338,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON SET WITH RINGS (0.25)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -343,7 +348,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON SET WITH RINGS (0.5)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -353,7 +358,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON RINGS ONLY 170 (STD)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -363,7 +368,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON RINGS ONLY 170 (0.25)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -373,7 +378,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON RINGS ONLY 170 (0.50)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -383,7 +388,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKSHAFT (25MM)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -393,7 +398,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL SEAL",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -403,7 +408,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL SEAL (20*35*7)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -413,7 +418,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL SEAL (25*47*7)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -423,7 +428,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL SEAL (25*41.25*7)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -433,7 +438,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "METAL OIL SEAL",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -443,7 +448,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CONNECTING ROD (STD)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -453,7 +458,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CONNECTING ROD (0.25)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -463,7 +468,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CONNECTING ROD (0.50)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -473,7 +478,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "IRON CAMSHAFT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -483,7 +488,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PETROL TANK (SCREW THREAD TYPE)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-tank-cap",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -493,7 +498,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PETROL CAP (SCREW THREAD)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-tank-cap",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -503,7 +508,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL TANK STRAINER",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-tank-cap",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -533,7 +538,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL GAUGE (GEAR BOX)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -543,7 +548,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL DRAIN BOLT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -553,7 +558,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SPEED CONTROLLING SEAT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -563,7 +568,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SPEED CONTROL GEAR SET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -583,7 +588,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SPEED REGULATING SPRING",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -593,7 +598,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SILENCER",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "exhaust-muffler",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -603,7 +608,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FLY WHEEL MANUAL",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -613,17 +618,17 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANK CASE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-060",
     "itemCode": "170F-060",
-    "name": "CARBURATOR GASKET",
+    "name": "CARBURETOR GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -633,7 +638,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "AIR FILTER GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -643,7 +648,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INSULATOR GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -653,7 +658,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SILENCER GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -663,7 +668,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -673,7 +678,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKCASE GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -683,7 +688,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER HEAD GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -693,7 +698,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GASKET SET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -703,7 +708,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP THROTTLE SWITCH (BLACK)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -713,7 +718,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP THROTTLE SWITCH (RED AND BLACK)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -723,37 +728,37 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP THROTTLE SWITCH (RED AND YELLOW)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-071",
     "itemCode": "170F-071",
-    "name": "7HP ACCERELATOR CABLE (STRAIGHT NAIL)",
+    "name": "7HP ACCELERATOR CABLE (STRAIGHT NAIL)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-072",
     "itemCode": "170F-072",
-    "name": "7HP ACCERELATOR CABLE (CROSS NAIL)",
+    "name": "7HP ACCELERATOR CABLE (CROSS NAIL)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-073",
     "itemCode": "170F-073",
-    "name": "7HP ACCERELATOR CABLE (205P ADJUSTMENT TYPE)",
+    "name": "7HP ACCELERATOR CABLE (205P ADJUSTMENT TYPE)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -763,7 +768,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP REVERSE CABLE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -773,7 +778,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP CLUTCH CABLE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -783,7 +788,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7 HP EMERGENCY STOP CABLE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -793,7 +798,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP/9HP START STOP SWITCH WITH CABLE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -833,7 +838,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GEAR SHIFT LEVER (UPPER ROD AND LOWER ROD)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -843,7 +848,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH FORK",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -853,7 +858,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH FORK SHAFT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -863,7 +868,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "REVERSE GEAR SHAFT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -873,7 +878,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH WIRE BASE (M8*30)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -903,7 +908,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "BLANK CAP GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -913,7 +918,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "O RING (#14*2)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -923,7 +928,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP/9HP CLUTCH HANDLE WITH PINS",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -933,7 +938,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP/9HP REVERSE HANDLE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -943,7 +948,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH HANDLE COTTER WITH PIN (M10*22)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -953,7 +958,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "COTTER WITH PIN (M7*22)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -963,7 +968,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "COTTER WITH PIN (M8*40)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -973,7 +978,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "COTTER WITH PIN (M8*50)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -983,7 +988,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "R PIN (#2)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1003,7 +1008,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "R PIN (#3)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1013,7 +1018,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PULL ROD (SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1023,7 +1028,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PUSH ROD (SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1033,7 +1038,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7 HP CLUTCH 8 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1043,7 +1048,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP CLUTCH 12 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1053,7 +1058,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7 HP REVERSE CLUTCH 8 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1063,7 +1068,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7 HP REVERSE CLUTCH 12 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1073,7 +1078,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP CLUTCH COVER 8 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1083,7 +1088,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "7HP CLUTCH COVER 12 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1093,7 +1098,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH COVER 8 LEAF WITH BEARING",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1103,7 +1108,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH COVER 12 LEAF WITH BEARING",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1113,7 +1118,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH FRICTION PLATE 8 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1123,7 +1128,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH FRICTION PLATE 12 LEAF",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1133,7 +1138,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "BEARING 30203",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "bearings",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1143,7 +1148,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "BEARING 30204",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "bearings",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1153,7 +1158,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "BEARING 30205",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "bearings",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1183,17 +1188,17 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "MAIN SHAFT GEAR",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
   {
     "id": "170f-117",
     "itemCode": "170F-117",
-    "name": "UMBEREALLA BEVEL 30T GEAR",
+    "name": "UMBRELLA BEVEL 30T GEAR",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1203,7 +1208,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "DRIVEN BEVEL GEAR SHAFT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1213,7 +1218,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "LAY SHAFT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1260,10 +1265,10 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
   {
     "id": "170f-124",
     "itemCode": "170F-124",
-    "name": "HEXAGANOL SHAFT",
+    "name": "HEXAGONAL SHAFT",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1273,7 +1278,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FLANGE ENGINE GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1283,7 +1288,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FLANGE GEAR BOX GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1293,7 +1298,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PTO LOCK NUT (#16)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1303,7 +1308,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PTO LOCK NUT GASKET (#16)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1313,7 +1318,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PTO GLAND COVER",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1323,7 +1328,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "SIDE COVER GASKET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1333,7 +1338,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CLUTCH GASKET (16*26*3)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1353,7 +1358,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GEAR BOX GASKET (SQUARE)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1363,7 +1368,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GASKET SET (171 GEAR BOX)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1393,7 +1398,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "171 GEAR BOX COVER",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1403,7 +1408,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "171 SIDE COVER",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1413,7 +1418,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "171 SIDE FLANGE",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1423,7 +1428,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "171 WALKING TRANSMISSION BODY",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1433,7 +1438,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "171 GEAR BOX FULL SET",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1443,7 +1448,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "400-8 TYRE ONLY",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "wheels-tyres",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1453,7 +1458,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "400-8 TYRE TUBE ONLY",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "wheels-tyres",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1463,7 +1468,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "4.00-8 TYRE RIM ONLY",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "wheels-tyres",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1473,7 +1478,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "4.00-8 AIR TYRE WITH RIM (SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "wheels-tyres",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1483,7 +1488,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "4.00-8 SOLID TYRE WITH RIM AND 23MM HOLDER (SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "wheels-tyres",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1493,7 +1498,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "5.00-12 AIR TYRE WITH RIM (SET)",
     "engineFamily": "170F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "wheels-tyres",
     "catalogueSource": "170FUPDATEDCATALOGUE.pdf",
     "needsReview": false
   },
@@ -1503,7 +1508,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL SEAL VALVE CONDUIT",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1513,7 +1518,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SPRING",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1523,7 +1528,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ROCKER ARM ASSY",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1533,7 +1538,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INTAKE / EXHAUST VALVE",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1543,7 +1548,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SEAT",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1553,7 +1558,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON SET WITH RINGS",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1563,7 +1568,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CONNECTING ROD",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1573,7 +1578,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTING SPRING",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1583,7 +1588,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "RECOIL STARTER (DOUBLE CLAW)",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1593,7 +1598,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PLUNGER SET",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1603,7 +1608,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR PUMP ASSY (ECONOMIC QUALITY)",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "economic"
@@ -1614,7 +1619,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR PUMP ASSY (HIGH QUALITY)",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "premium"
@@ -1625,7 +1630,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR (ECONOMIC QUALITY)",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "economic"
@@ -1636,7 +1641,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR (HIGH QUALITY)",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "premium"
@@ -1647,7 +1652,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "DIESEL FILTER ASSY",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1657,7 +1662,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTION PIPE",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1667,7 +1672,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ELECTRIC STARTER KIT WITH BATTERY SEAT (11 ITEMS)",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1677,7 +1682,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GASKET SET",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1687,7 +1692,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GEAR RING (ELECTRIC STARTER)",
     "engineFamily": "173F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "173FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1697,7 +1702,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GASKET, CYLINDER HEAD COVER",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1707,7 +1712,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER HEAD",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1717,7 +1722,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER GASKET",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1727,7 +1732,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKCASE",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1737,7 +1742,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GOVERNOR ASSY",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1747,7 +1752,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL SEAL 30*46*35",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1757,17 +1762,17 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKCASE COVER",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
   {
     "id": "177f-008",
     "itemCode": "177F-008",
-    "name": "DIPSSTICK SEAL",
+    "name": "DIPSTICK SEAL",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1777,7 +1782,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "DIPSTICK ASSY",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1787,7 +1792,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKCASE COVER GASKET",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1797,7 +1802,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKSHAFT 25MM",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1807,7 +1812,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CONNECTING ROD ASSY (0.00)",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1817,7 +1822,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON SET WITH RINGS (0.00)",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1827,7 +1832,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON RINGS (0.00)",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1837,7 +1842,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "MUFFLER ASSY",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "exhaust-muffler",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1847,7 +1852,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "TAPPET",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1857,7 +1862,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ROCKER ASSY",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1867,7 +1872,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INTAKE/EXHAUST VALVE",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1877,7 +1882,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE STEM SEAL",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1887,7 +1892,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SPRING",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1897,7 +1902,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INTAKE VALVE SPRING SEAT",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1907,7 +1912,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE ROTATOR",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1917,7 +1922,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "RECOIL STARTER ASSY",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1927,7 +1932,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "RECOIL STARTER REEL",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1937,37 +1942,37 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "RECOIL STARTER SPRING",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
   {
     "id": "177f-026",
     "itemCode": "177F-026",
-    "name": "CARBURATOR INSULATOR",
+    "name": "CARBURETOR INSULATOR",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
   {
     "id": "177f-027",
     "itemCode": "177F-027",
-    "name": "CARBURATOR GASKET",
+    "name": "CARBURETOR GASKET",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
   {
     "id": "177f-028",
     "itemCode": "177F-028",
-    "name": "CARBURATOR ASSY PREMIUM QUALITY",
+    "name": "CARBURETOR ASSY PREMIUM QUALITY",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "premium"
@@ -1978,17 +1983,17 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "AIR CLEANER ASSY",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
   {
     "id": "177f-030",
     "itemCode": "177F-030",
-    "name": "AIRC CLEANER GASKET",
+    "name": "AIR CLEANER GASKET",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -1998,7 +2003,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "THROTTLE RETURN SPRING SMALL",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2008,7 +2013,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GOVERNOR SPRING BIG",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2018,7 +2023,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL TANK",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-tank-cap",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2028,7 +2033,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL CAP",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-tank-cap",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2038,7 +2043,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL FILTER",
     "engineFamily": "177F",
     "fuelType": "petrol",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "177FPETROLENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2048,7 +2053,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SPRING WASHER (A)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2058,7 +2063,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SPRING WASHER (B)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2068,7 +2073,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL SEAL VALVE CONDUIT",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2078,7 +2083,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SPRING",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2088,7 +2093,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SPRING RETAINER",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2098,7 +2103,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE ADJUSTING PLATE",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2108,7 +2113,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER HEAD ASSY",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2118,7 +2123,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ROCKER ARM ASSY",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2128,7 +2133,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INTAKE EXHAUST VALVE",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2138,7 +2143,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "INTAKE EXHAUST VALVE (SQUARE)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2148,7 +2153,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE GUIDE",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2158,7 +2163,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "VALVE SEAT",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2168,7 +2173,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER HEAD STUD ( M10 x 105 )",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2178,7 +2183,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER HEAD STUD ( M10 x 118 )",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2188,7 +2193,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER HEAD SHIM COPPER",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2198,7 +2203,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "NUT (SHORT) CYLINDER HEAD",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2208,7 +2213,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "NUT (LONG) CYLINDER HEAD",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2218,7 +2223,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CYLINDER RUBBER RING",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2228,7 +2233,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STUD Am (6x50)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fasteners",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2238,7 +2243,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANK CASE GASKET",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2248,7 +2253,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "MAIN BEARING",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "bearings",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2258,7 +2263,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER SLEEVE (CUP)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2268,7 +2273,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "WASHER FLYWHEEL",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2278,7 +2283,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "BALANCE SHAFT TIMING GEAR",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2288,7 +2293,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "BALANCING SHAFT TIMING GEAR",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "transmission-clutch",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2298,7 +2303,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKSHAFT (SHAFT TYPE 42MM)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2308,7 +2313,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKSHAFT (SHAFT TYPE 40MM)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2318,7 +2323,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CRANKSHAFT TIMING GEAR",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2328,7 +2333,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON RINGS",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2338,7 +2343,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON PIN",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2348,7 +2353,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PISTON SET WITH RINGS",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2358,17 +2363,17 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CONNECTING ROD",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
   {
     "id": "186f-033",
     "itemCode": "186F-033",
-    "name": "VALVE TAPET",
+    "name": "VALVE TAPPET",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "cylinder-head-valve-train",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2378,7 +2383,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "CAMSHAFT TIMING GEAR",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "crankcase-crankshaft-piston",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2388,7 +2393,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "MOTOR - ELECTRIC STARTER (0.9-1 KW)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2398,7 +2403,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GEAR RING (ELECTRIC STARTER)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2408,7 +2413,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "BATTERY CLAMP (TERMINAL)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2418,7 +2423,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ELECTRIC STARTER KEY",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2428,7 +2433,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "ELECTRIC STARTER KIT WITH BATTERY SEAT (11 ITEMS)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2438,7 +2443,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTING SPRING",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2448,7 +2453,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER ROPE 1.6M",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2458,7 +2463,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "STARTER REEL",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2468,7 +2473,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "RECOIL STARTER ( DOUBLE CLAW)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "starter-electric",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2478,7 +2483,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "AIR FILTER SPONGE ( BIG AND SMALL )",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2488,7 +2493,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "METAL FILTER (FOR SUMP)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2498,7 +2503,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "AIR FILTER ASSY",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2508,7 +2513,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GASKET INLET PIPE BENDING",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2518,7 +2523,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "PLUNGER SET WITH FUEL PIPE",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2528,7 +2533,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR PUMP ASSY (ECONOMIC QUALITY)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "economic"
@@ -2539,7 +2544,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR PUMP ASSY ( PREMIUM QUALITY)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "premium"
@@ -2550,7 +2555,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR PUMP ASSY GASKET",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2560,7 +2565,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR (ECONOMIC QUALITY)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "economic"
@@ -2571,7 +2576,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTOR (PREMIUM QUALITY)",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false,
     "qualityVariant": "premium"
@@ -2592,7 +2597,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "OIL FILTER ASSY",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "air-intake-filter",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2612,7 +2617,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "FUEL INJECTION PIPE ASSY",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "fuel-system",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   },
@@ -2622,7 +2627,7 @@ export const ENGINE_PRODUCTS: EngineProduct[] =
     "name": "GASKET SET",
     "engineFamily": "186F",
     "fuelType": "diesel",
-    "category": "other",
+    "category": "gaskets-seals",
     "catalogueSource": "186FDIESELENGINESPARES.pdf",
     "needsReview": false
   }
